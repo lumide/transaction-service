@@ -3,7 +3,8 @@ package com.example.transactionservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.beans.factory.annotation.Value;
-import javax.annotation.PostConstruct;
+//import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 /**
  * Entry point for the transaction service.
